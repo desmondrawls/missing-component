@@ -1,4 +1,11 @@
-# INFLECTION FOR REFLECTION
+# This repo recreates a bug I'm running into related to Stuart Sierra's Component library
+## Mystery: Why doesn't my Datomic component implement the IDataSource protocol?
+
+## Steps to recreate 
+
+Prerequisites: 
+- datomic
+- an environment variable called RECORDING_STUDIO_TRANSACTOR_URL that points to a datomic db
 
 When you first clone this repository, run:
 
