@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: kerodon:0.8.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/kerodon/kerodon/0.8.0/kerodon-0.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

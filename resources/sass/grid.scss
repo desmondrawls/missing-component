@@ -1,0 +1,64 @@
+.grid-container {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+}
+
+.filter-container {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  margin-bottom: 10px;
+}
+
+.filter-label {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  justify-self: end;
+}
+
+.filter-freeform {
+  grid-column-start: 6;
+  grid-column-end: 11;
+  justify-self: center;
+  height: 100px;
+}
+
+.filter-start {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  justify-self: center;
+}
+
+.filter-to {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  justify-self: center;
+}
+
+.filter-end {
+  grid-column-start: 9;
+  grid-column-end: 11;
+  justify-self: center;
+}
+
+.input-sm {
+  width: 50px;
+}
+
+.grid-center {
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+
+.grid-right {
+  grid-column-start: 9;
+  grid-column-end: 13;
+}
+
+.flat-top {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+th, td {
+  padding-right: 15px;
+}
