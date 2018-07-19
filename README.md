@@ -1,6 +1,10 @@
 # This repo recreates a bug I'm running into related to Stuart Sierra's Component library
 ## Mystery: Why doesn't my Datomic component implement the IDataSource protocol?
 
+## Error
+
+`java.lang.IllegalArgumentException: No implementation of method: :query* of protocol: #'reflection.component.datomic/UniqueName found for class: reflection.component.datomic.DatomicDataSource`
+
 ## Steps to recreate 
 
 Prerequisites: 
